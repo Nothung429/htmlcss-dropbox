@@ -4,3 +4,66 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: aqua;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*------ container ------*/
+.jumbotron-frame {
+    max-width: 1300px;
+    margin: auto;
+}
+.frame {
+    max-width: 1080px;
+    margin: auto;
+}
+
+/*------ header ------*/
+header {
+    font-size: 0px;
+    padding: 20px 10px;
+}
+.header-left ,.header-right {
+    display: inline-block;
+    width: 50%;
+}
+.header-right {
+    text-align: right;
+}
+
+/*------ header logo and login ------*/
+.logo ,.header-nav-left ,.header-nav-right ,.login {
+    display: inline-block;
+}
+.login {
+    vertical-align: middle;
+}
+.logo {
+    vertical-align: middle;
+}
+#access {
+    background-color: blue;
+    color: white;
+    border: 1px transparent;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+/*------ header navigation ------*/
+.header-nav-left ,.header-nav-right {
+    vertical-align: middle;
+}
+.header-nav-left li a ,.header-nav-right li a {
+    font-size: 16px;
+    margin: 0 20px;
+    color: black;
+    text-decoration: none;
+}
+.header-nav-left li ,.header-nav-right li {
+    display: inline-block;
+}
+
+/*------ jumbotron ------*/
+
