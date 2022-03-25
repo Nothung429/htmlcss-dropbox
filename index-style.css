@@ -14,7 +14,6 @@ body {
 .jumbotron-frame {
     max-width: 1300px;
     margin: auto;
-    border: 2px solid black;
 }
 .frame {
     max-width: 1080px;
@@ -72,12 +71,10 @@ header {
 }
 .hero {
     position: relative;
-    border: 2px solid black;
 }
 .hero-text {
     display: inline-block;
-    border: 2px solid black;
-    width: 40%;
+    width: 30%;
     margin: 40px 0 100px 0;
     padding-right: 50px;
 }
@@ -96,7 +93,7 @@ h1 {
     margin-bottom: 30px;
 }
 .hero-img {
-    width: 60%;
+    width: 70%;
     position: absolute;
     top: 40px;
     right: 0;
