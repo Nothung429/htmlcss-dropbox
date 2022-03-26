@@ -1,0 +1,44 @@
+/*------ sezione info top ------*/
+.info-top {
+    margin-top: 100px;
+}
+.info-top::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.info-top-img ,.info-top-text {
+    float: left;
+}
+.info-top-text {
+    padding: 40px 0px 40px 50px;
+    width: 40%;
+}
+.info-top-img {
+    width: 60%;
+}
+.info-top-img img {
+    width: 100%;
+}
+.info-top-text h3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.info-top-text p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+#find-friend {
+    font-size: 18px;
+    border: 1px solid black;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.info-main {
+    margin-top: 100px;
+}
+.info-main h2 {
+    font-size: 38px;
+}
