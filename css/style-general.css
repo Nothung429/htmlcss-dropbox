@@ -1,0 +1,16 @@
+/*------ general ------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 300vh;
+    background-color: aqua;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.frame {
+    max-width: 1080px;
+    margin: auto;
+}
