@@ -120,19 +120,71 @@ h1 {
     font-size: 44px;
 }
 .plan {
-    margin: 40px 0 20px 0;
+    margin: 50px 0 30px 0;
+}
+.top .plan .container {
+    position: relative;
+    padding: 0 20px 0 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.plan .container input {
+    display: none;
 }
 
-/*------ top section button radio ------*/
-.container input {
-    vertical-align: middle;
-    height: 25px;
-    width: 25px;
+/*------ top section radio style ------*/
+.new-radio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    border: 1px solid black; 
+    background-color: white;
+    border-radius: 50%;
 }
-#prova {
-    padding-right: 20px;
-    vertical-align: middle;
-    font-size: 22px;
+.container .new-radio:after {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
 }
+/*------ top section radio commands ------*/
+.new-radio:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.container input:checked ~ .new-radio {
+    background-color: rgb(0, 97, 255);
+}
+.container input:checked ~ .new-radio:after {
+    display: block;
+}
+
+/*------ columns section ------*/
+.columns {
+    height: 300px;
+    background-color: lightgreen;
+}
+.columns::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.left ,.center ,.right {
+    float: left;
+    margin: 0 10px;
+    border: 2px solid black;
+    background-color: lightcoral;
+    height: 300px;
+    width: calc(100% / 3 - 20px);
+}
+
+
+
 
 
