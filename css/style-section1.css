@@ -38,6 +38,7 @@
     border-radius: 50%;
     background-color: white;
 }
+
 /*------ top section radio commands ------*/
 .new-radio:after {
     content: "";
@@ -68,11 +69,8 @@
 .center {
     margin: 0 60px;
 }
-hr {
-    width: 30%;
-}
 
-/*------ left columns ------*/
+/*------ left column ------*/
 .subject {
     text-align: center;
     font-size: 20px;
@@ -80,14 +78,22 @@ hr {
     border-bottom: 1px solid lightgray;
 }
 
-/*------ left columns payment ------*/
-.payment {
+/*------ left column frame ------*/
+.left-frame {
     padding: 0 10%;   
 }
-.payment h3 {
+.left-frame h3 {
     font-size: 26px;
     padding: 20px 0 10px 0;
 }
+.left-frame h4 {
+    padding: 30px 0 20px 0;
+}
+hr {
+    width: 30%;
+}
+
+/*------ left column price ------*/
 .price {
     padding-bottom: 25px;
 }
@@ -98,35 +104,30 @@ hr {
     color: lightgrey;
 }
 
-/*------ left columns payment advantage ------*/
+/*------ left column price advantage ------*/
 .price-advantage ul {
     padding-left: 20px;
 }
 .price-advantage ul li {
     padding: 8px 0;
 }
-#a1::before {
-    content: "\f007"; 
+#a1::before ,#a2::before ,#a3::before {
     font-family: FontAwesome;
     display: inline-block;
     margin-left: -1.3em; 
     width: 1.3em; 
+}
+#a1::before {
+    content: "\f007"; 
 }
 #a2::before {
     content: "\f07b"; 
-    font-family: FontAwesome;
-    display: inline-block;
-    margin-left: -1.3em; 
-    width: 1.3em; 
 }
 #a3::before {
     content: "\f303"; 
-    font-family: FontAwesome;
-    display: inline-block;
-    margin-left: -1.3em; 
-    width: 1.3em; 
 }
 
+/*------ left column button ------*/
 .btn {
     padding: 30px 0 20px 0;
 }
@@ -146,23 +147,21 @@ hr {
     padding: 10px 40px;
 }
 
-.payment h4 {
-    padding: 30px 0 20px 0;
+/*------ left column price-description ------*/
+ul li {
+    list-style-type: none;
 }
-.payment-description {
+.price-description {
     padding-left: 20px;
 }
-.payment-description ul li {
+.price-description ul li {
     padding: 8px 0;
 }
-.payment-description ul li::before {
+.price-description ul li::before {
     content: "\f00c"; 
     color: rgb(0, 97, 255);
     font-family: FontAwesome;
     display: inline-block;
     margin-left: -1.3em; 
     width: 1.3em; 
-}
-ul li {
-    list-style-type: none;
 }
