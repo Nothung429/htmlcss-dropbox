@@ -13,7 +13,7 @@ footer {
 /*------ footer nav ------*/
 .footer-nav {
     width: calc(100% / 5 - 20px);
-    margin-left: 20px;
+    margin-right: 20px;
     float: left;
 }
 .footer-nav li {
@@ -30,7 +30,12 @@ footer {
 
 /*------ footer language ------*/
 .footer-language hr {
-    margin: 50px 0 50px 30px;
+    margin: 90px 0 50px 0;
     width: 10%;
     border: 1px solid red;
+}
+.footer-language p::before {
+    content: "\f0ac";
+    font-family: FontAwesome;
+    padding-right: 10px;
 }
