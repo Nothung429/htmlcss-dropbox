@@ -122,7 +122,45 @@
     background-color: #ffd830;
 }
 
-/*------ sezione faq dropbox ------*/
+/*------ sezione faq title dropbox ------*/
 .faq-title {
     background-color: #b4d0e7;
+    position: relative;
+}
+.faq-title h3 {
+    font-size: 36px;
+    color: #6c2244;
+    padding: 120px 0;
+    display: inline-block;
+}
+.faq-title input {
+    position: absolute;
+    top: 120px;
+    right: 15%;
+}
+
+/*------ sezione faq main dropbox ------*/
+.faq-main {
+    margin: 80px 0;  
+}
+.faq-main p {
+    padding: 30px 0;
+    font-weight: 700;
+    position: relative;
+}
+.faq-main hr {
+    width: 100%;
+    border: 1px solid red;
+}
+.faq-main h3 {
+    font-size: 30px;
+    padding: 25px 0;
+}
+#faq {
+    position: absolute;
+    right: 5%;
+}
+#faq::after {
+    content: "\f078";
+    font-family: FontAwesome;
 }
