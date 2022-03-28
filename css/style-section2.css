@@ -2,23 +2,19 @@
 .info-top {
     margin-top: 100px;
 }
+.info-top-img ,.info-top-text {
+    float: left;
+}
 .info-top::after {
     content: "";
     display: table;
     clear: both;
 }
-.info-top-img ,.info-top-text {
-    float: left;
-}
+
+/*------ sezione info top text ------*/
 .info-top-text {
     padding: 40px 0px 40px 50px;
     width: 40%;
-}
-.info-top-img {
-    width: 60%;
-}
-.info-top-img img {
-    width: 100%;
 }
 .info-top-text h3 {
     font-size: 28px;
@@ -29,6 +25,16 @@
     line-height: 28px;
     margin-bottom: 20px;
 }
+
+/*------ sezione info top img ------*/
+.info-top-img {
+    width: 60%;
+}
+.info-top-img img {
+    width: 100%;
+}
+
+/*------ sezione info top button ------*/
 #find-friend {
     font-size: 18px;
     border: 1px solid black;
@@ -36,9 +42,38 @@
     cursor: pointer;
 }
 
+/*------ sezione info main ------*/
 .info-main {
     margin-top: 100px;
 }
 .info-main h2 {
     font-size: 38px;
+}
+
+/*------ sezione info main upper e lower ------*/
+.upper > * ,.lower > * {
+    float: left;
+    width: calc(100% / 3 - 40px);
+    border: 1px solid black;
+}
+.upper ,.lower {
+    margin-top: 80px;
+    background-color: white;
+}
+.upper::after ,.lower::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*------ sezione info main intern columns ------*/
+.col-center {
+    margin: 0 60px;
+}
+.col-left img ,.col-center img ,.col-right img {
+    width: 100%;
+}
+.col-left h4 ,.col-center h4 ,.col-right h4 {
+    font-size: 26px;
+    margin: 10px 0 20px 0;
 }
