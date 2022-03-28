@@ -53,9 +53,6 @@
 }
 
 /*------ columns section ------*/
-.columns {
-    background-color: white;
-}
 .columns::after {
     content: "";
     display: table;
@@ -171,7 +168,6 @@ ul li {
     margin-top: 60px;
     border: 1px solid lightgrey;
     position: relative;
-    background-color: white;
 }
 .subject1 {
     text-align: center;

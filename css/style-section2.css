@@ -54,11 +54,9 @@
 .upper > * ,.lower > * {
     float: left;
     width: calc(100% / 3 - 40px);
-    border: 1px solid black;
 }
 .upper ,.lower {
     margin-top: 80px;
-    background-color: white;
 }
 .upper::after ,.lower::after {
     content: "";

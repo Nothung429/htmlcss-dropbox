@@ -27,8 +27,9 @@
 .sponsor-center {
     float: left;
     height: 30vw;
-    width: calc(100vw - 62vw);
-    border-bottom: 1px solid green;
+    width: calc(40vw - 20px);
+    background-color: #f5f5f5;
+    overflow-y: auto;
 }
 .sponsor-right {
     float: left;
@@ -43,7 +44,8 @@
 
 /*------ sezione sponsor main square logo ------*/
 .sp-img {
-    width: 10vw;
+    width: 8vw;
+    filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(152deg) brightness(105%) contrast(101%);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -77,6 +79,23 @@
     background-color: #ff1c1c;
 }
 
+/*------ sezione sponsor main square center ------*/
+.sp-center-text {
+    padding: 40px;
+}
+.sp-center-img {
+    width: 10vw;
+}
+.sp-center-text hr {
+    border: 1px solid red;
+    width: 6vw;
+    margin: 30px 0 40px 0;
+}
+.sp-center-text p {
+    margin-bottom: 40px;
+    font-size: 1vw;
+}
+
 /*------ sezione sponsor main square right ------*/
 .sp-right-1 {
     position: absolute;
@@ -103,5 +122,7 @@
     background-color: #ffd830;
 }
 
-
-
+/*------ sezione faq dropbox ------*/
+.faq-title {
+    background-color: #b4d0e7;
+}
