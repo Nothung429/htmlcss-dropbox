@@ -7,6 +7,7 @@
     color: rgb(0, 97, 255);
 }
 
+/*------ sezione sponsor main ------*/
 .sponsor-main {
     margin-top: 60px;
 } 
@@ -15,6 +16,8 @@
     display: table;
     clear: both;
 }
+
+/*------ sezione sponsor main square ------*/
 .sponsor-left {
     float: left;
     height: 30vw;
@@ -33,14 +36,18 @@
     height: 30vw;
     position: relative;
 }
+.square {
+    width: 15vw;
+    height: 15vw;
+}
+
+/*------ sezione sponsor main square left ------*/
 .sp-left-1 {
     position: absolute;
     top: 0;
     left: 0;
     background-color: #a2d39b;
     border: 10px solid #d0e9cd;
-    width: 15vw;
-    height: 15vw;
 }
 .sp-left-1 img {
     width: 10vw;
@@ -49,64 +56,104 @@
     left: 50%;
     transform: translate(-50% , -50%);
 }
-.sp-left-1 img {
-    color: #61082b;
-}
 
 .sp-left-2 {
     position: absolute;
     top: 0;
     right: 0;
     background-color: #61082b;
-    width: 15vw;
-    height: 15vw;
 }
+.sp-left-2 img {
+    width: 10vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
 .sp-left-3 {
     position: absolute;
     bottom: 0;
     left: 0;
     background-color: #0093ce;
-    width: 15vw;
-    height: 15vw;
 }
+.sp-left-3 img {
+    width: 10vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
 .sp-left-4 {
     position: absolute;
     bottom: 0;
     right: 0;
     background-color: #ff1c1c;
-    width: 15vw;
-    height: 15vw;
 }
+.sp-left-4 img {
+    width: 10vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+/*------ sezione sponsor main square right ------*/
 .sp-right-1 {
     position: absolute;
     top: 0;
     left: 0;
     background-color: #d5001f;
-    width: 15vw;
-    height: 15vw;
 }
+.sp-right-1 img {
+    width: 10vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
 .sp-right-2 {
     position: absolute;
     top: 0;
     right: 0;
     background-color: #b4d0e7;
-    width: 15vw;
-    height: 15vw;
 }
+.sp-right-2 img {
+    width: 10vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
 .sp-right-3 {
     position: absolute;
     bottom: 0;
     left: 0;
     background-color: #0d2481;
-    width: 15vw;
-    height: 15vw;
 }
+.sp-right-3 img {
+    width: 10vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
 .sp-right-4 {
     position: absolute;
     bottom: 0;
     right: 0;
     background-color: #ffd830;
-    width: 15vw;
-    height: 15vw;
 }
+.sp-right-4 img {
+    width: 10vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
 
