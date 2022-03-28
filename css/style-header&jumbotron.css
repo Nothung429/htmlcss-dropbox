@@ -46,10 +46,6 @@ header {
     background-color: rgb(180, 208, 231);
     padding-top: 40px;
 }
-.jumbotron-frame {
-    max-width: 1300px;
-    margin: auto;
-}
 
 /*------ jumbotron hero ------*/
 .hero {

@@ -13,3 +13,7 @@ body {
     max-width: 1080px;
     margin: auto;
 }
+.jumbotron-frame ,.footer-frame {
+    max-width: 1300px;
+    margin: auto;
+}
