@@ -41,6 +41,15 @@
     height: 15vw;
 }
 
+/*------ sezione sponsor main square logo ------*/
+.sp-img {
+    width: 10vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
 /*------ sezione sponsor main square left ------*/
 .sp-left-1 {
     position: absolute;
@@ -49,54 +58,23 @@
     background-color: #a2d39b;
     border: 10px solid #d0e9cd;
 }
-.sp-left-1 img {
-    width: 10vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-}
-
 .sp-left-2 {
     position: absolute;
     top: 0;
     right: 0;
     background-color: #61082b;
 }
-.sp-left-2 img {
-    width: 10vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-}
-
 .sp-left-3 {
     position: absolute;
     bottom: 0;
     left: 0;
     background-color: #0093ce;
 }
-.sp-left-3 img {
-    width: 10vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-}
-
 .sp-left-4 {
     position: absolute;
     bottom: 0;
     right: 0;
     background-color: #ff1c1c;
-}
-.sp-left-4 img {
-    width: 10vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
 }
 
 /*------ sezione sponsor main square right ------*/
@@ -106,54 +84,24 @@
     left: 0;
     background-color: #d5001f;
 }
-.sp-right-1 img {
-    width: 10vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-}
-
 .sp-right-2 {
     position: absolute;
     top: 0;
     right: 0;
     background-color: #b4d0e7;
 }
-.sp-right-2 img {
-    width: 10vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-}
-
 .sp-right-3 {
     position: absolute;
     bottom: 0;
     left: 0;
     background-color: #0d2481;
 }
-.sp-right-3 img {
-    width: 10vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-}
-
 .sp-right-4 {
     position: absolute;
     bottom: 0;
     right: 0;
     background-color: #ffd830;
 }
-.sp-right-4 img {
-    width: 10vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-}
+
 
 
