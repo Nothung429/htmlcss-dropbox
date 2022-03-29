@@ -50,6 +50,7 @@ header {
 /*------ jumbotron ------*/
 .jumbotron {
     background-color: rgb(180, 208, 231);
+    margin-top: 40px;
     padding-top: 40px;
 }
 
